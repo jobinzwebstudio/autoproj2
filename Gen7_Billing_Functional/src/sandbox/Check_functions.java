@@ -17,7 +17,7 @@ public class Check_functions extends variables {
 	{
 		Load.Browser(URL, "FireFOX");	
 		System.out.println("loaded");
-		//System.out.println(driver.findElement(By.cssSelector("#hplogo")));
+		System.out.println(driver.getTitle());
 		//Assert.assertTrue(driver.getTitle().equalsIgnoreCase("Google"), "Test Passed");
 		
 	}
