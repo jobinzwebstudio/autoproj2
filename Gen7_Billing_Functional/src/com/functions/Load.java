@@ -10,8 +10,6 @@ public class Load extends variables {
 	
 
 	
-	//tst comny
-	
   @BeforeTest
   public static WebDriver Browser(String URL, String Browser) {
 	  
@@ -24,7 +22,7 @@ public class Load extends variables {
 	  }
 	  
 	  
-	return driver;
+	return null;
   }
   
   
