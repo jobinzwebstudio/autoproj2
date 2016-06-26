@@ -4,9 +4,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
 
-public class Load {
+import com.libs.variables;
+
+public class Load extends variables {
 	
-	static WebDriver driver;
+
 	
 	//tst comny
 	
