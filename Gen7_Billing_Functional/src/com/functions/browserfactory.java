@@ -13,7 +13,7 @@ public class browserfactory extends variables{
 	{
 		driver.findElement(By.cssSelector("#hplogo"));
 		
-		return null;
+		return driver;
 		
 	}
 	
